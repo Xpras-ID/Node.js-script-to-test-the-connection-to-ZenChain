@@ -3,7 +3,7 @@ Here’s a simple **Node.js** script to test the connection to **ZenChain Testne
 ```javascript
 const { ethers } = require("ethers");
 
-// Replace with ZenChain Testnet RPC URL
+// ZenChain Testnet RPC URL
 const ZENCHAIN_TESTNET_RPC = "https://zenchain-testnet.api.onfinality.io/public"; 
 
 async function testConnection() {
