@@ -9,7 +9,7 @@ const ZENCHAIN_TESTNET_RPC = "https://zenchain-testnet.api.onfinality.io/public"
 async function testConnection() {
     try {
         // Create a provider
-        const provider = new ethers.JsonRpcProvider(ZENCHAIN_TESTNET_RPC);
+        const provider = new ethers.JsonRpcProvider(https://zenchain-testnet.api.onfinality.io/public);
 
         // Get network details
         const network = await provider.getNetwork();
